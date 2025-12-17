@@ -1,0 +1,340 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #eaeaea;
+    font-size: 16px;
+}
+
+/* Стилі для головної секції */
+.section-main {
+    background-color: #556b2f;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-main-logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.section-main-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.section-main-subtitle {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.section-main-button {
+    background-color: #8fbc8f;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.section-main-button:hover {
+    background-color: #7daa7d;
+}
+
+/* Стилі для другої секції */
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #fff;
+}
+
+.second-section-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.second-section-img {
+    width: 500px;
+    border: 5px solid #556b2f;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.section-subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #8fbc8f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #556b2f;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.second-section-text {
+    margin: 30px 0;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.second-section-name {
+    color: #556b2f;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.second-section-name2 {
+    color: #8fbc8f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Стилі для третьої секції */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.books-table {
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.table-header {
+    display: flex;
+    background-color: #556b2f;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.header-cell, .table-cell {
+    flex: 1;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.header-cell {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.table-cell {
+    font-size: 16px;
+    color: #333;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Стилі для футера */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f4f4f;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer-text {
+    width: 600px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #8fbc8f;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer-text-main {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.form-input {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    background-color: #2f4f4f;
+    color: #fff;
+    border: 1px solid #8fbc8f;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form-input::placeholder {
+    color: #aaa;
+}
+
+.footer-button {
+    margin-top: 30px;
+    padding: 12px 40px;
+    background-color: #8fbc8f;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-button:hover {
+    background-color: #7daa7d;
+}
+
+/* Адаптивність */
+@media (max-width: 1200px) {
+    .second-section {
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+    
+    .second-section-img {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .second-section-content {
+        max-width: 100%;
+    }
+    
+    .books-table {
+        width: 95%;
+    }
+    
+    .footer-text {
+        width: 90%;
+    }
+    
+    .form-input {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-main-title {
+        font-size: 40px;
+    }
+    
+    .section-main-subtitle {
+        font-size: 18px;
+    }
+    
+    .second-section, .third-section, .footer {
+        padding: 60px 20px;
+    }
+    
+    .header-cell, .table-cell {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    
+    .footer-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-main-title {
+        font-size: 32px;
+    }
+    
+    .section-main-subtitle {
+        font-size: 16px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    .table-header, .table-row {
+        flex-direction: column;
+    }
+    
+    .header-cell, .table-cell {
+        padding: 10px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .table-row .table-cell:last-child {
+        border-bottom: none;
+    }
+    
+    .table-row:nth-child(even) .table-cell:last-child {
+        border-bottom: none;
+    }
+}
